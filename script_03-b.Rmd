@@ -1,6 +1,6 @@
 ---
 title: "Week 3, Day 2"
-author: "David Kane"
+author: "Buddy Scott"
 output: html_document
 ---
 
@@ -61,8 +61,8 @@ sep_diff %>%
   gt() %>%
   tab_header(title = "Biggest Increases in Enrollment") %>%
   cols_label(title = "Number", name = "Title", u_grad.y = "Enrollment", 
-             u_grad.diff = "Change")
-
+             u_grad.diff = "Change") %>%
+  tab_source_note("Harvard Registrar")
 
 ```
 
@@ -80,7 +80,8 @@ sep_diff %>%
   gt() %>%
   tab_header(title = "Biggest Decreases in Enrollment") %>%
   cols_label(title = "Number", name = "Title", u_grad.y = "Enrollment", 
-             u_grad.diff = "Change")
+             u_grad.diff = "Change") %>%
+  tab_source_note("Harvard Registrar")
 ```
 
 c) Make a nice looking graphic which shows these 10 courses.
