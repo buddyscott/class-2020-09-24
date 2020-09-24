@@ -103,14 +103,16 @@ sep_diff %>%
 
 d) Write down some thoughts about what might explain these increases and decreases. Or is it all just random? How would we know?
 ```{r}
-# 
+# I would attribute the five top increases to either changing math classes / 
+# finally selecting one in the case of the two math classes, and perhaps sign
+# language and Libertarian Economics are easier classes that students flocked
+# to. The five biggest decreases in enrollment are probably due to either the 
+# class not living up to expectations, or like this class, quite difficult 
+# and weeded out the students not up to the task in the first few weeks.
 ```
 
 
 See [here](https://rpubs.com/dkane/week-3) for my answers. No need to copy exactly what I have done! Make yours better.
-
-
-
 
 
 ## Scene 2
